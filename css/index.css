@@ -2631,17 +2631,20 @@ a.fancybox {
   display: none;
 }
 .reward-qrcode-alipay,
-.reward-qrcode-wechat {
+.reward-qrcode-wechat,
+.reward-qrcode-bitcoin {
   display: inline-block;
   margin: 0 2rem;
 }
 .reward-qrcode-alipay__img,
-.reward-qrcode-wechat__img {
+.reward-qrcode-wechat__img,
+.reward-qrcode-bitcoin__img {
   width: 200px;
   height: 200px;
 }
 .reward-qrcode-alipay__text,
-.reward-qrcode-wechat__text {
+.reward-qrcode-wechat__text,
+.reward-qrcode-bitcoin__text {
   margin: 0.5rem 0;
 }
 .reward-qrcode-alipay__text {
@@ -2649,6 +2652,9 @@ a.fancybox {
 }
 .reward-qrcode-wechat__text {
   color: #3cb034;
+}
+.reward-qrcode-bitcoin__text {
+  color: #d4af37;
 }
 .copyright {
   position: relative;
