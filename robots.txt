@@ -1,0 +1,15 @@
+# hexo robots.txt
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /hiBenzhu/
+
+Disallow: /js/
+Disallow: /css/
+Disallow: /images/
+Disallow: /source/
+Disallow: /fancybox/
+Disallow: /vendors/
+Disallow: /fancybox/
+
+Sitemap: https://benzhu.me/baidusitemap.xml
